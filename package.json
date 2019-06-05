@@ -1,7 +1,7 @@
 {
-  "name": "anketa-postgresql",
+  "name": "postgresql",
   "version": "1.0.0",
-  "description": "anketa sa login, baza sa  postgresql",
+  "description": "login, baza sa  postgresql",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
