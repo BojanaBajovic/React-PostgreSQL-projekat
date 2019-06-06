@@ -47,8 +47,10 @@ class App extends Component {
       prezime: null,
       role: null    
     });
+    this.connecToServer = this.connecToServer.bind(this);
   }  
-
+  connecToServer() {    fetch('/');  }
+  componentDidMount() {    this.connecToServer();  }
 
   render() {
     return ( 
